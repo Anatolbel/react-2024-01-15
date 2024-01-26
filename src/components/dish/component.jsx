@@ -1,6 +1,7 @@
 import styles from "./styles.module.scss";
 
-const Dish = ({ name, ingredients, price }) => {
+const Dish = ({ dish }) => {
+  const { name, ingredients, price } = dish;
   return (
     <div className={styles.dish}>
       <b>{name}</b> for ${price} ({ingredients.join(", ")})
