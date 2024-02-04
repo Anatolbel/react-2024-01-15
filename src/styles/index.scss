@@ -5,6 +5,11 @@ body {
    font-size: 18px;
    text-align: center;
    background-color: #f1eaeaa4;
+   #root {
+         display: flex;
+         flex-direction: column;
+         min-height: 100vh;
+      }
    li {
       list-style-type: none;
       text-align: left;

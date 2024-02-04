@@ -1,3 +1,10 @@
 .dish {
-   margin: 10px 0;
+   .buttons {
+      margin: 0 5px;
+   
+      &:first-of-type {
+         margin-left: 10px;
+      }
+   }
 }
+

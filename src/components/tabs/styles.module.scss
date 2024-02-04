@@ -1,0 +1,9 @@
+.tabs {
+   display: flex;
+   justify-content: space-between;
+}
+.tab {
+   font-size: 28px;
+   font-weight: bold;
+   cursor: pointer;
+}
