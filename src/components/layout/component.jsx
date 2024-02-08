@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <Header />
-      <main className={styles.container} >{children}</main>
+      <main className={styles.main} >{children}</main>
       <Footer />
     </Fragment>
   );

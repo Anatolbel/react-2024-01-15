@@ -1,4 +1,5 @@
 import Dish from '../dish/component'
+import './styles.module.scss'
 
 const Menu = ({menu}) => {
   return (

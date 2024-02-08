@@ -1,10 +1,9 @@
-import styles from "./styles.module.scss";
 import Menu from "../menu/component";
 import Reviews from "../reviews/component";
 
 const Restaurant = ({ restaurant }) => {
   return (
-    <div key={restaurant.id} className={styles.restaurant}>
+    <div key={restaurant.id} >
       <h2>{restaurant.name} </h2>
       <h3>Menu</h3>
       <Menu menu={restaurant.menu} />
