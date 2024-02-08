@@ -2,6 +2,7 @@ import { restaurants } from '../../constants/mock'
 import { useState } from 'react';
 import Tabs from '../tabs/component';
 import Restaurant from '../restaurant/component';
+import Form from '../form/component';
 
 const Content = () => {
   const defaultRestaurant = restaurants[0].id;
@@ -18,6 +19,7 @@ const Content = () => {
     <>
       <Tabs restaurants={restaurants} onClick={clickHandler} />
       <Restaurant restaurant={activeRestaurantData} />
+      <Form />
     </>
   );
 }
